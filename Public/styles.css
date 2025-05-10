@@ -38,9 +38,17 @@ a {
   font-size: 16px;
 }
 
+.user-header {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 10px;
+  vertical-align: middle;
+}
 
 .hero {
-  background-image: url('img/baghotell.jpg'); /* Ganti dengan gambar latar belakang kamu */
+  background-image: url('img/baghotell.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -51,7 +59,6 @@ a {
 }
 
 .hero-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 60px 30px;
   text-align: center;
 }
